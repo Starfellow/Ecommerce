@@ -167,10 +167,69 @@ body {
 
 /* FOOTER */
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #222;
+  background: #111;
+  color: #eee;
+  margin-top: 80px;
+}
+
+.footer-top {
+  padding: 60px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.footer-col h4 {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-col ul li a:hover {
   color: #fff;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 16px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #aaa;
 }
 
 .cart-modal {
@@ -322,6 +381,7 @@ section {
 .category-card h4 {
   padding: 14px;
 }
+
 
 
 
